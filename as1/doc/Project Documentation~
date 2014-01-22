@@ -1,0 +1,36 @@
+CalorieLog 1.0 README
+
+CMPUT 301 Calorie Counter Project Documentation
+Lanre Adebambo
+Unix ID: adebambo
+
+*******User can click the date text to bring up a date picker dialog and select a different date**********
+
+
+On application startup, user is brought to the start screen which displays a list of saved entries for the current day.
+Below the application title bar is the daily calorie count and below that is the date (by default set to current date). 
+
+*******User can click the date text to bring up a date picker dialog and select a different date**********
+
+Its really cool :)
+
+On selection of a new date, the list is refreshed with entries from the newly selected date (if they exist).
+
+At the botom of the screen are two buttons, "Add Entry" and "View Complete Log." As its name implies, "Add Entry" brings
+up a dialog box to add a new entry while "View Complete Log" takes user to a list of all saved entries (sorted by date). 
+Here, the user can also see other details like total calories of all entries, the number of days logged and the average
+calories consumed from the date of first entry till date of last entry date.
+
+A new entry consists of a date (which can be set by the date picker) a field for the description of the meal and the amount
+of calories in the meal. The amount of calories in the meal can be directly input or the user could give the app the 
+calories per quantity of serving and the units of serving consumed and let the app do the rest. Throughout the app, any 
+saved entry in a list can be clicked to bring up the edit entry dialog box. This dialog box gives the user the option of 
+simply editing an entry or outright deletion of the entry.
+
+Works Referenced:
+Referred to newboston.com for tutorial
+Got log_dialog xml background from all-wallpapers.net
+Used androrm package (http://androrm.the-pixelpla.net/documentation/beginners/tutorials/)
+Referenced Justin Taylor's calorie counter app on github. I modelled my app and most of my code around his (https://github.com/justin-taylor/Calorie-Counter)
+
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="log_row_meal_name">#FFFFFF</color>
+    <color name="log_row_calorie">#FFFFFF</color>
+    <color name="date_string">#FFFFFF</color>
+    <color name="calorie_total_background">#303030</color>
+    <color name="calorie_total_text">#00C3FF</color>
+    <color name="log_list_divider">#00C3FF</color>
+    <color name="title">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="snow4">#8B8989</color>
+    <color name="black">#000000</color>
+    <color name="davyGrey">#555555</color>
+    
+    
+</resources>

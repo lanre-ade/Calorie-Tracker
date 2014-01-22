@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">adebambo-recipes</string>
+    <string name="database_name">database_log</string>
+    
+    <!-- main.xml -->
+    <string name="add_log">Add Entry</string>
+    <string name="change_date">Change Date</string>
+    <string name="date_format">MMMM d yyyy</string>
+    
+    <!-- log_dialog.xml -->
+    <string name="create_log_title">Create a Log</string>
+    <string name="edit_log_title">Edit Log</string>
+    <string name="create_log_meal_hint">Meal Description</string>
+    <string name="create_log_calories_hint">Calorie Count</string>
+    <string name="create_log_positive_button">Save</string>
+    <string name="create_log_negative_button">Delete</string>
+    <string name="create_log_neutral_button">Cancel</string>
+    <string name="no_logs">No logs have been made for this day.</string>
+    <string name="total_calories">Total Calories:</string>
+    <string name="title_bar_image_description">Title bar image</string>
+    <string name="cal_per_serv">Calories Per Serving</string>
+    <string name="per">per</string>
+    <string name="per_serving">Per Serving</string>
+    <string name="view_stat">View Stats</string>
+    <string name="serv_am">Total Servings</string>
+    <string name="view_comp_log">View Complete Log</string>
+    <string name="view_stats">ViewStats</string>
+    <string name="average_calories">Calories Per Day:</string>
+    <string name="days_logged">Days Logged:</string>
+    <string name="daily_cal">Daily Calorie Count:</string>
+    <string name="comp_log">Complete Log</string>
+    <string name="cal_cal_count">Calculate Calorie Count (Optional)</string>
+    <string name="in_cal_count">Input Calorie Count</string>
+
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:background="@color/calorie_total_text"
+  android:layout_height="28dp"
+  android:layout_width="fill_parent" android:gravity="center_vertical">
+        
+        <TextView
+        android:id="@+id/title_string"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textColor="@color/title"
+        android:text="@string/app_name"
+        android:paddingLeft="14dp" />
+        
+        <ImageView 
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content" 
+        android:id="@+id/title_image"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/title_bar_image_description">
+        </ImageView>
+        
+        
+    
+</RelativeLayout>

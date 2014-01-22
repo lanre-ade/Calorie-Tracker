@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="adebambo.cs.ualberta.ca.calorie_log"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:name=".CalorieLogApplication"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".Activities.CalorieLogMainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.CompleteLogActivity"
+            android:label="@string/comp_log" >
+            <intent-filter>
+                <action android:name="android.intent.action.CLOG" />
+
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="adebambo.cs.ualberta.ca.calorie_log.Activities.ViewStats"
+            android:label="@string/view_stats" >
+            <intent-filter>
+                <action android:name="android.intent.action.VSTATS" />
+
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
